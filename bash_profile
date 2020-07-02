@@ -134,6 +134,11 @@ tosu () {
   osu "$1"
 }
 
+toyp () {
+  cd /Users/codydaig/galvanize/hrr44-toy-problems
+  git pull upstream master
+}
+
 # Run python's simple server
 alias serve="python -m SimpleHTTPServer"
 
